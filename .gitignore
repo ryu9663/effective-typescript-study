@@ -3,3 +3,7 @@
 *.log
 **/.DS_Store
 **/.bin/
+.agent
+.claude
+.gemini
+.github/prompts
