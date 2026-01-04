@@ -133,6 +133,8 @@ interface BaseOption {
   labels: string[];
 }
 
+type Tag = "grid" | "select" | "list";
+
 export interface GridOption extends BaseOption {
   tag: "grid";
   col: number;
